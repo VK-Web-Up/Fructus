@@ -193,7 +193,8 @@
 
     <div class="filter filter-index">
       <h2 class="villas-title title-pages">Недвижимость</h2>
-      <ul class="filter-list">
+      <ul class="filter-list" style="padding-top: 2px; align-items: normal;
+      ">
         <li class="filter-item" id="sea-side">У моря</li>
         <li class="filter-item" id="cheaper">Возрастающая цена</li>
         <li class="filter-item" id="expensive">Люкс предложения</li>
@@ -208,8 +209,24 @@
       <ul class="villas-list" id="villas-list">
       </ul>
       <div class="bth-group">
-        <button class="btn-all-villas btn-all-villas-previous"><span id="btn-all-villas-previous"><<< Предыдущая страница</span></button>
-        <button class="btn-all-villas btn-all-villas-next"><span id="btn-all-villas-next">Следующая страница >>></span></button>
+        <!-- <button class="btn-all-villas btn-all-villas-previous"><span id="btn-all-villas-previous"><<< Предыдущая страница</span></button> -->
+        <!-- <button class="btn-all-villas btn-all-villas-next"><span id="btn-all-villas-next">Следующая страница >>></span></button> -->
+      
+
+        <button class="inner-box btn-all-villas-previous" style="margin-right: auto; padding: 2px 45px; height: 50px">
+          <span id="btn-all-villas"><span id="btn-all-villas-previous" style="height: 45px; margin-left: 25px">     Предыдущая страница</span></span> 
+          <div class="more-link more-link-previous" style="padding-right: 5px;">
+            <a href="" style="margin-top: 5px;"><span class="more-link-span">←</span></a>
+          </div>
+        </button>
+      
+        <button class="inner-box" style="margin-left: auto; padding: 2px 75px 2px 45px; height: 50px">
+          <span id="btn-all-villas"><span id="btn-all-villas-next" style="height: 45px">Следующая страница</span></span>
+          <div class="more-link" style="padding-right: 5px;">
+            <a href="" style="margin-top: 5px;"><span class="more-link-span">→</span></a>
+          </div>
+        </button>
+      
       </div>
     </section>
 
@@ -341,6 +358,7 @@
     <script src="assets/js/logic.js"></script>
     <script src="assets/js/pages.js"></script>
     <script src="assets/js/telegramBot.js"></script>
+    <script type="text/javascript">document.getElementsByClassName("villas-title")[0].innerHTML = ``;</script>
     <script type="text/javascript">formListen(formRequest);</script>
   </body>
 
