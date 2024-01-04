@@ -1,0 +1,115 @@
+.pages {
+  /* padding-top: 30px; */
+}
+
+.blog-pages {
+  margin-top: -75px;
+}
+
+article {
+}
+
+.about-north-cyprus-page {
+  padding: 15px 65px;
+}
+
+.about-cyprus-title-pages {
+}
+
+.card-wide-title {
+  text-align: center;
+  font-style: italic;
+  font-size: 20px;
+}
+
+.card-wide-subtitle-pages {
+  text-align: center;
+}
+
+.about-cyprus-page-list {
+}
+
+.about-cyprus-page-item {
+  padding: 20px;
+}
+
+.about-cyprus-page-item > .card-image-page {
+}
+
+.about-cyprus-img {
+  /* Уже есть */
+}
+
+.about-cyprus-page-item > .about-cyprus-img > img {
+}
+
+.about-cyprus-page-item > .about-cyprus-img > .villa-image {
+}
+
+.card-wide-page-list {
+}
+
+.card-wide-page-item > a:hover {
+  color: var(--bg-orange);
+}
+
+.btn-cyprus {
+  height: 30px;
+  margin-left: auto;
+}
+
+.cyprus-page {
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+  min-height: 250px;
+  padding: 40px 65px;
+  text-align: justify;
+}
+
+.cyprus-page:first-child {
+  margin-top: -32px;
+}
+
+.cyprus-page-img {
+  padding: 5px 45px 35px 0px;
+  width: 66%;
+  float: left;
+}
+
+.cyprus-page-img-small {
+  width: 33%;
+  float: left;
+}
+
+.empty  {
+  width: 125px;
+  height: 30px;
+}
+
+ul.pages-text > li {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* .card-item:nth-child(n+9) {
+  display: none;
+}
+
+.card-item:nth-child(-n+8), .card-item:nth-child(n+17){
+  display: none;
+}
+
+.card-item:nth-child(-n+16), .card-item:nth-child(n+25){
+  display: none;
+}
+
+.card-item:nth-child(-n+24), .card-item:nth-child(n+33){
+  display: none;
+}
+
+.card-item:nth-child(-n+32), .card-item:nth-child(n+41){
+  display: none;
+}*/
+
+/* <style type="text/css">.card-item:nth-child(n+9) {display: none;}</style> */
